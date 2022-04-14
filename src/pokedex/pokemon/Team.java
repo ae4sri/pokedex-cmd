@@ -103,7 +103,7 @@ public class Team {
         StringBuilder details = new StringBuilder("Team Name: " + name + "\n");
 
         for (int i = 0; i < team.size(); i++) {
-                details.append(i).append(1).append(") ").append(team.get(i)).append("\n");
+                details.append(i+1).append(") ").append(team.get(i)).append("\n");
             }
 
         return details.toString();
