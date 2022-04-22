@@ -2,10 +2,6 @@ package pokedex;
 
 import org.junit.jupiter.api.*;
 import pokedex.pokemon.*;
-import pokedex.util.Reader;
-
-import java.io.File;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -27,24 +23,6 @@ class PokemonTest {
     @BeforeEach
     public void setUp() {
         // set up variables to use for test functions
-        Pokemon poke1 = new Pokemon("Charizard", 78, 84, 109, 78, 85, 100,
-                "Charizard description", new Type("Fire"), new Type("Flying"));
-
-        Pokemon poke2 = new Pokemon("Pikachu", 35, 55, 50, 40, 50, 90,
-                "Pikachu description", new Type("Electric"), new Type(""));
-
-        Pokemon poke3 = new Pokemon("Mew", 100, 100, 100, 100, 100, 100,
-                "Mew description", new Type("Psychic"), new Type(""));
-
-        Pokemon poke4 = new Pokemon("Arcanine", 90, 110, 100, 80, 80, 95,
-                "Arcanine description", new Type("Fire"), new Type("Flying"));
-
-        Pokemon poke5 = new Pokemon("Alakazam", 55, 40, 135, 45, 95, 120,
-                "Alakazam description", new Type("Fire"), new Type("Flying"));
-
-        Pokemon poke6 = new Pokemon("Gengar", 60, 65, 130, 60, 75, 110,
-                "Gengar description", new Type("Fire"), new Type("Flying"));
-
         Move move1 = new Move("Fire Blast", "The target is attacked with an intense blast of " +
                 "all-consuming fire. This may also leave the target with a burn.", new Type("Fire"));
 
