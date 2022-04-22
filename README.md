@@ -8,6 +8,4 @@ generic and individual Pokemon are able to be added and viewed, as well as moves
 
 ## How to Run
 
-I would reccomend just running the program through your IDE. Only internal Java libraries are used (except for JUnit for testing) so the program shouldn't be 
-too difficult to configure. The Main class
-is pokedex.Main.
+I would reccomend just running the program through your IDE. Only internal Java libraries are used (except for JUnit for testing, which is self-contained in PokemonTest.java) so the program shouldn't be too difficult to configure. The Main class is just pokedex.Main.
